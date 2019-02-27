@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="b5">
+    <folder id="0" name="frame">
+        <file id="0" name="frame/frame-0.png" width="352" height="348" pivot_x="0.499928" pivot_y="0.496266"/>
+    </folder>
+    <entity id="0" name="ui_voidgem_3x3">
+        <animation id="0" name="open_90s" length="234">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="frame" folder="0" file="0" abs_x="0" abs_y="0" abs_pivot_x="0.499928" abs_pivot_y="0.496266" abs_angle="0" abs_scale_x="1" abs_scale_y="0.075928" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="34">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="67">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="90">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+                <key id="4" time="234">
+                    <object_ref id="0" timeline="0" key="4" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="frame">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" angle="0" scale_y="0.075928"/>
+                </key>
+                <key id="1" time="34" spin="0">
+                    <object folder="0" file="0" angle="0" scale_x="1.02171" scale_y="0.31424"/>
+                </key>
+                <key id="2" time="67" spin="0">
+                    <object folder="0" file="0" angle="0" scale_x="1.08684" scale_y="1.02919"/>
+                </key>
+                <key id="3" time="90" spin="0">
+                    <object folder="0" file="0" x="1" angle="0" scale_x="0.85"/>
+                </key>
+                <key id="4" time="234" spin="0">
+                    <object folder="0" file="0" angle="0" scale_x="0.85"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="close_90s" length="234">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="frame" folder="0" file="0" abs_x="0" abs_y="0" abs_pivot_x="0.499928" abs_pivot_y="0.496266" abs_angle="0" abs_scale_x="0.85" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="180">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="181"/>
+                <key id="3" time="234"/>
+            </mainline>
+            <timeline id="0" name="frame">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" angle="0" scale_x="0.85"/>
+                </key>
+                <key id="1" time="180" spin="0">
+                    <object folder="0" file="0" angle="0" scale_x="0.85" scale_y="0.011377"/>
+                </key>
+                <key id="2" time="181" spin="0">
+                    <object folder="0" file="0" angle="0" scale_x="0.85" scale_y="0.011377"/>
+                </key>
+                <key id="3" time="234" spin="0">
+                    <object folder="0" file="0" angle="0" scale_x="0.0" scale_y="0.0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>
